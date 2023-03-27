@@ -1,0 +1,1 @@
+sudo timeout --signal=2 120s sudo ./perf stat -C 34,35,36,37,38 -M 'TopdownL1,tma_memory_bound,tma_core_bound,IPC,CPU_Utilization,DRAM_BW_Use'
